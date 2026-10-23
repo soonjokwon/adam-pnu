@@ -2,7 +2,7 @@
  "lab": "ADAM Lab@PNU",
  "source": "https://docs.google.com/spreadsheets/d/1bmfsOkVl16OJ2KWzWJG6NtV5Ds98fXKnSiRtxKxgzlw",
  "sheet_tab": "sections",
- "extracted": "2026-10-16T13:17:43Z",
+ "extracted": "2026-10-23T09:32:40Z",
  "note": "block/section/type text blocks (Professor, Recruiting, Research, Home).",
  "columns": [
   "block",
@@ -272,6 +272,15 @@
    "type": "entry",
    "sub": "Organizer",
    "text": "한국CDE학회 학술대회, 30주년준비위원 (2025 동계)",
+   "link": "",
+   "image": ""
+  },
+  {
+   "block": "professor",
+   "section": "Academic Activities",
+   "type": "entry",
+   "sub": "Organizer",
+   "text": "",
    "link": "",
    "image": ""
   },
