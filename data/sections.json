@@ -2,7 +2,7 @@
  "lab": "ADAM Lab@PNU",
  "source": "https://docs.google.com/spreadsheets/d/1bmfsOkVl16OJ2KWzWJG6NtV5Ds98fXKnSiRtxKxgzlw",
  "sheet_tab": "sections",
- "extracted": "2026-10-23T09:32:40Z",
+ "extracted": "2026-10-23T09:33:36Z",
  "note": "block/section/type text blocks (Professor, Recruiting, Research, Home).",
  "columns": [
   "block",
@@ -280,7 +280,7 @@
    "section": "Academic Activities",
    "type": "entry",
    "sub": "Organizer",
-   "text": "",
+   "text": "The 11th International Conference on Manufacturing, Machine Design and Tribology (ICMDT 2027), Organizing Committee",
    "link": "",
    "image": ""
   },
