@@ -2,7 +2,7 @@
  "lab": "ADAM Lab@PNU",
  "source": "https://docs.google.com/spreadsheets/d/1bmfsOkVl16OJ2KWzWJG6NtV5Ds98fXKnSiRtxKxgzlw",
  "sheet_tab": "publications",
- "extracted": "2026-10-27T13:57:43Z",
+ "extracted": "2026-10-27T13:59:03Z",
  "note": "type: journal-intl | journal-kr | conf-intl | conf-kr | in-prep | other.",
  "columns": [
   "type",
@@ -738,7 +738,7 @@
   },
   {
    "type": "journal-kr",
-   "no": "19",
+   "no": "20",
    "year": "2026",
    "authors": "이초빈, 변재호, 남승건, 김동환, 박지민, 권순조*",
    "title": "신발장 걸이형 접이식 의자의 설계 및 제작 연구: 공간 활용도 및 착화 편의성 개선을 중심으로",
@@ -761,11 +761,11 @@
    "title": "열차 무정차 통과는 역사 군중 밀집을 얼마나 완화하는가: 10·29 참사 당일 이태원역의 시뮬레이션 기반 재구성과 정량 평가",
    "topics": "safety",
    "venue": "한국안전학회지",
-   "details": "게재 예정",
+   "details": "41(5), 42-52, Oct",
    "date": "",
    "presentation": "",
-   "status": "in-press",
-   "link": "",
+   "status": "published",
+   "link": "https://public.thinkonweb.com/journals/jkosos/digital-library/108328",
    "note": "",
    "extra_label": "",
    "extra_link": ""
