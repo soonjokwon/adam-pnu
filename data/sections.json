@@ -2,7 +2,7 @@
  "lab": "ADAM Lab@PNU",
  "source": "https://docs.google.com/spreadsheets/d/1bmfsOkVl16OJ2KWzWJG6NtV5Ds98fXKnSiRtxKxgzlw",
  "sheet_tab": "sections",
- "extracted": "2026-10-27T14:19:08Z",
+ "extracted": "2026-10-27T14:27:32Z",
  "note": "block/section/type text blocks (Professor, Recruiting, Research, Home).",
  "columns": [
   "block",
@@ -84,15 +84,6 @@
    "sub": "",
    "text": "Orcid",
    "link": "https://orcid.org/0000-0003-1578-9262",
-   "image": ""
-  },
-  {
-   "block": "professor",
-   "section": "",
-   "type": "profile",
-   "sub": "",
-   "text": "CV",
-   "link": "https://soonjokwon.github.io/adam-pnu/assets/cv/CV_Soonjo_Kwon.pdf",
    "image": ""
   },
   {
