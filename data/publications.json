@@ -2,7 +2,7 @@
  "lab": "ADAM Lab@PNU",
  "source": "https://docs.google.com/spreadsheets/d/1bmfsOkVl16OJ2KWzWJG6NtV5Ds98fXKnSiRtxKxgzlw",
  "sheet_tab": "publications",
- "extracted": "2026-10-27T14:03:46Z",
+ "extracted": "2026-10-27T14:06:38Z",
  "note": "type: journal-intl | journal-kr | conf-intl | conf-kr | in-prep | other.",
  "columns": [
   "type",
@@ -255,7 +255,7 @@
    "date": "",
    "presentation": "",
    "status": "published",
-   "link": "https://www.mdpi.com/2077-1312/12/11/1961",
+   "link": "https://doi.org/10.3390/jmse12111961",
    "note": "",
    "extra_label": "",
    "extra_link": ""
@@ -561,7 +561,7 @@
    "date": "",
    "presentation": "",
    "status": "published",
-   "link": "http://www.cad-journal.net/files/vol_17/CAD_17%282%29_2020_274-287.pdf",
+   "link": "https://dx.doi.org/10.14733/cadaps.2020.274-287",
    "note": "",
    "extra_label": "",
    "extra_link": ""
