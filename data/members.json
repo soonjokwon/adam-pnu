@@ -2,7 +2,7 @@
  "lab": "ADAM Lab@PNU",
  "source": "https://docs.google.com/spreadsheets/d/1bmfsOkVl16OJ2KWzWJG6NtV5Ds98fXKnSiRtxKxgzlw",
  "sheet_tab": "members",
- "extracted": "2026-10-27T14:08:16Z",
+ "extracted": "2026-10-27T14:18:28Z",
  "note": "role: professor | postdoc | researcher | phd | ms-phd | ms | undergrad. status: current | alumni.",
  "columns": [
   "name_ko",
@@ -211,7 +211,7 @@
    "photo": "",
    "email": "",
    "link": "",
-   "affiliation": "한화오션(주) 설계정보팀",
+   "affiliation": "HD한국조선해양 차세대통합플랫폼개발부",
    "history": "학부 연구생 (2022.08 ~ 2023.02), 석사 졸업 (2023.03 ~ 2025.02)",
    "lab": "DADI Lab@KIT"
   },
