@@ -2,7 +2,7 @@
  "lab": "ADAM Lab@PNU",
  "source": "https://docs.google.com/spreadsheets/d/1bmfsOkVl16OJ2KWzWJG6NtV5Ds98fXKnSiRtxKxgzlw",
  "sheet_tab": "publications",
- "extracted": "2026-10-27T13:52:08Z",
+ "extracted": "2026-10-27T13:52:43Z",
  "note": "type: journal-intl | journal-kr | conf-intl | conf-kr | in-prep | other.",
  "columns": [
   "type",
@@ -129,7 +129,7 @@
    "no": "35",
    "year": "2026",
    "authors": "T. Um, M. Choi*, S. Kwon, M. Kim, S. Park",
-   "title": "Appearance-preserving simplification of non-watertightCAD models using NeuS-guided outer shell extraction",
+   "title": "Appearance-preserving simplification of non-watertight CAD models using NeuS-guided outer shell extraction",
    "topics": "ai; cad; mesh; dt",
    "venue": "Journal of Computational Design and Engineering",
    "details": "To be published",
