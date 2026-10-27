@@ -88,6 +88,15 @@
   },
   {
    "block": "professor",
+   "section": "",
+   "type": "profile",
+   "sub": "",
+   "text": "CV",
+   "link": "https://soonjokwon.github.io/adam-lab/assets/cv/CV_Soonjo_Kwon.pdf",
+   "image": ""
+  },
+  {
+   "block": "professor",
    "section": "Experiences",
    "type": "entry",
    "sub": "",
