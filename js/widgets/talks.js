@@ -59,7 +59,7 @@
     var spark = el("div", { class: "tk-spark", "aria-hidden": "true" });
     for (var y = first; y <= last; y++) {
       var n = ys[y] || 0;
-      spark.appendChild(el("i", { class: n === max ? "hi" : "", style: "height:" + Math.max(6, Math.round(n / max * 100)) + "%", title: y + ": " + n }));
+      spark.appendChild(el("i", { style: "height:" + Math.max(6, Math.round(n / max * 100)) + "%", title: y + ": " + n }));
     }
     refs.head.appendChild(spark);
   }
