@@ -620,7 +620,7 @@ main { display: block; }
 body.search-open { overflow: hidden; }
 
 /* orange bar above tab page titles (matches home .mk-cp .bar) */
-.page-kicker .kicker-bar{display:block;width:44px;height:4px;background:var(--accent);margin-bottom:14px}
+.page-kicker .kicker-bar{display:block;width:44px;height:4px;background:#2f6bff;margin-bottom:14px}
 .page-kicker .kicker-bar + h1{margin-top:0}
-.page-kicker .kicker-bar + h1{line-height:1.1}
-@media (max-width:640px){.page-kicker .kicker-bar{margin-bottom:10px}}
+.page-kicker .kicker-bar + h1{line-height:1.1;font-size:40px}
+@media (max-width:640px){.page-kicker .kicker-bar{margin-bottom:10px}.page-kicker .kicker-bar + h1{font-size:28px}}
