@@ -364,3 +364,7 @@ html.sx-compact .sx-cbar { display: flex; flex-wrap: wrap; gap: 6px; }
 @container ax (max-width: 345px) { .sx-cbtn::after { content: none; } .sx-cbar { gap: 5px; } }
 .sx-cbtn:hover, .sx-cbtn:focus-visible { border-color: var(--navy); background: #f6f8ff; }
 html.sx-compact .sx-text { line-height: 1.55; }
+
+/* Research thumbs open a lightbox (styles: gallery.css .gl-box) */
+.sx-thumb--zoom { cursor: zoom-in; }
+.sx-lb .gl-box-cap .sx-ac { color: #fff; font-weight: 700; }

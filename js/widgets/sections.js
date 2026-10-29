@@ -69,6 +69,56 @@
   }
   function plain(s) { return String(s || "").replace(/\*\*|\{\{|\}\}/g, "").replace(/\[([^\]]+)\]\([^)]*\)/g, "$1"); }
 
+  /* ---------- thumb lightbox (same markup/styles as the Photos tab: gallery.css .gl-box) ---------- */
+  var LBI = {
+    prev: '<svg viewBox="0 0 16 16" width="14" height="14" aria-hidden="true"><path d="M10.2 2.4 4.6 8l5.6 5.6" fill="none" stroke="currentColor" stroke-width="1.6"/></svg>',
+    next: '<svg viewBox="0 0 16 16" width="14" height="14" aria-hidden="true"><path d="M5.8 2.4 11.4 8l-5.6 5.6" fill="none" stroke="currentColor" stroke-width="1.6"/></svg>',
+    close: '<svg viewBox="0 0 16 16" width="14" height="14" aria-hidden="true"><path d="m3 3 10 10M13 3 3 13" stroke="currentColor" stroke-width="1.6"/></svg>'
+  };
+  var lb = { box: null, list: [], i: 0, opener: null };
+  function lbOpen(list, i, opener) {
+    if (opener) lb.opener = opener;
+    lb.list = list; lb.i = (i + list.length) % list.length;
+    if (lb.box) lb.box.remove();
+    var it = list[lb.i], multi = list.length > 1;
+    var im = el("img", { src: A.asset(it.image), alt: plain(it.text) });
+    var prev = multi ? el("button", { type: "button", class: "gl-btn gl-prev", "aria-label": "이전", html: LBI.prev }) : null;
+    var next = multi ? el("button", { type: "button", class: "gl-btn gl-next", "aria-label": "다음", html: LBI.next }) : null;
+    var close = el("button", { type: "button", class: "gl-btn gl-close", "aria-label": "닫기", html: LBI.close });
+    lb.box = el("div", { class: "gl-box sx-lb", role: "dialog", "aria-modal": "true", "aria-label": plain(it.text) }, [
+      el("div", { class: "gl-box-top" }, [el("span", { class: "ax-mono", text: (lb.i + 1) + " / " + list.length }), el("span", { class: "gl-box-acts" }, [close])]),
+      el("div", { class: "gl-box-stage" }, [im, prev, next]),
+      rich("div", "gl-box-cap", it.text)
+    ]);
+    if (prev) prev.addEventListener("click", function () { lbOpen(lb.list, lb.i - 1); });
+    if (next) next.addEventListener("click", function () { lbOpen(lb.list, lb.i + 1); });
+    close.addEventListener("click", lbClose);
+    lb.box.addEventListener("click", function (e) {
+      if (e.target === lb.box || e.target.classList.contains("gl-box-stage") || e.target.classList.contains("gl-box-top") || (e.target === im && lbOutside(im, e))) lbClose();
+    });
+    document.body.appendChild(lb.box);
+    document.documentElement.classList.add("gl-locked");
+    close.focus({ preventScroll: true });
+  }
+  function lbOutside(im, e) {
+    var r = im.getBoundingClientRect(), nw = im.naturalWidth, nh = im.naturalHeight;
+    if (!nw || !nh) return false;
+    var k = Math.min(1, r.width / nw, r.height / nh), w = nw * k, h = nh * k, x = r.left + (r.width - w) / 2, y = r.top + (r.height - h) / 2;
+    return e.clientX < x || e.clientX > x + w || e.clientY < y || e.clientY > y + h;
+  }
+  function lbClose() {
+    if (!lb.box) return;
+    lb.box.remove(); lb.box = null;
+    document.documentElement.classList.remove("gl-locked");
+    if (lb.opener && document.contains(lb.opener)) lb.opener.focus({ preventScroll: true });
+  }
+  document.addEventListener("keydown", function (e) {
+    if (!lb.box) return;
+    if (e.key === "Escape") lbClose();
+    else if (e.key === "ArrowLeft" && lb.list.length > 1) lbOpen(lb.list, lb.i - 1);
+    else if (e.key === "ArrowRight" && lb.list.length > 1) lbOpen(lb.list, lb.i + 1);
+  });
+
   /* ---------- rows ---------- */
   var T = A.track("sections");
   function normalize(rows) {
@@ -215,7 +265,17 @@
     if (t === "profile") return profileRun(items);
     if (t === "thumb") return el("div", { class: "sx-thumbs", "data-min": "220", "data-min-pe": "96" }, items.map(function (it) {
       var fig = el("figure", { class: "sx-thumb" }, [el("div", { class: "sx-tim" }, [img(it.image, plain(it.text))]), rich("figcaption", "", it.text)]);
-      return it.link ? linkTo(it.link, fig) : fig;
+      if (it.link) return linkTo(it.link, fig);
+      if (it.image) {
+        /* click/tap → lightbox (gallery.css .gl-box), arrows stay within this section's thumbs */
+        fig.classList.add("sx-thumb--zoom");
+        fig.setAttribute("role", "button"); fig.setAttribute("tabindex", "0");
+        fig.setAttribute("aria-label", plain(it.text) + " 크게 보기");
+        var open = function () { lbOpen(items.filter(function (x) { return x.image && !x.link; }), items.filter(function (x) { return x.image && !x.link; }).indexOf(it), fig); };
+        fig.addEventListener("click", open);
+        fig.addEventListener("keydown", function (e) { if (e.key === "Enter" || e.key === " ") { e.preventDefault(); open(); } });
+      }
+      return fig;
     }));
     if (t === "contact") return el("dl", { class: "sx-contact" }, items.map(function (it) {
       var v = el("dd", {});
