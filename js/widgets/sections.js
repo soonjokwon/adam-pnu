@@ -276,6 +276,19 @@
     var photos = sec.items.filter(function (it) { return it.type === "photo"; });
     var rest = sec.items.filter(function (it) { return it.type !== "photo"; });
     var main = el("div", { class: "sx-main" });
+    var pillar0 = opts.research ? researchPillarKey(sec.k) : "";
+    if (pillar0) {
+      /* Research A·I·D: [text | big figure] row (alternating sides), thumbnails below */
+      var txt = rest.filter(function (it) { return it.type !== "figure" && it.type !== "thumb"; });
+      var figs = rest.filter(function (it) { return it.type === "figure"; });
+      var ths = rest.filter(function (it) { return it.type === "thumb"; });
+      var txtEl = el("div", { class: "sx-rtext" });
+      runs(txt, function (it) { return it.type; }).forEach(function (g) { txtEl.appendChild(renderRun(g)); });
+      var figEl = el("div", { class: "sx-rfig" });
+      if (figs.length) figEl.appendChild(renderRun({ k: "figure", items: figs }));
+      main.appendChild(el("div", { class: "sx-rrow" + (pillar0 === "i" ? " sx-rrow--rev" : "") + (figs.length ? "" : " no-fig") }, [figEl, txtEl]));
+      if (ths.length) main.appendChild(renderRun({ k: "thumb", items: ths }));
+    } else
     runs(rest, function (it) { return it.type; }).forEach(function (g) { main.appendChild(renderRun(g)); });
     var cbar = compactBar(sec.items);
     if (cbar) main.appendChild(cbar);
