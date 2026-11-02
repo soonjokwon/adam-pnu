@@ -2,7 +2,7 @@
  "lab": "ADAM Lab@PNU",
  "source": "https://docs.google.com/spreadsheets/d/1bmfsOkVl16OJ2KWzWJG6NtV5Ds98fXKnSiRtxKxgzlw",
  "sheet_tab": "publications",
- "extracted": "2026-11-02T09:10:47Z",
+ "extracted": "2026-11-02T11:36:41Z",
  "note": "type: journal-intl | journal-kr | conf-intl | conf-kr | in-prep | other.",
  "columns": [
   "type",
@@ -22,6 +22,23 @@
   "extra_link"
  ],
  "items": [
+  {
+   "type": "in-prep",
+   "no": "",
+   "year": "",
+   "authors": "",
+   "title": "모방학습 기반 시저 리프트–SPM 능동 태양광 추적 시스템의 설계 및 검증",
+   "topics": "",
+   "venue": "",
+   "details": "",
+   "date": "",
+   "presentation": "",
+   "status": "",
+   "link": "",
+   "note": "",
+   "extra_label": "",
+   "extra_link": ""
+  },
   {
    "type": "in-prep",
    "no": "",
