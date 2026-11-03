@@ -368,3 +368,5 @@ html.sx-compact .sx-text { line-height: 1.55; }
 /* Research thumbs open a lightbox (styles: gallery.css .gl-box) */
 .sx-thumb--zoom { cursor: zoom-in; }
 .sx-lb .gl-box-cap .sx-ac { color: #fff; font-weight: 700; }
+
+.sx-what .sx-note { display: block; margin-top: 2px; font-size: 0.86em; color: #6b7280; font-weight: 400; }

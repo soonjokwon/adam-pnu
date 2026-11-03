@@ -165,7 +165,10 @@
           var all = it.text.match(new RegExp(DATE.source, "g")) || [];
           var tail = it.text.match(/^([\s\S]*?)\s*\((\d{4}[^()]*)\)\s*$/);
           if (all.length === 1 && tail) {
-            li.appendChild(rich("span", "sx-what", tail[1], { dates: true }));
+            var nt = tail[1].match(/^([\s\S]*?)\s+—\s+(“[\s\S]*”)$/);
+            var what = rich("span", "sx-what", nt ? nt[1] : tail[1], { dates: true });
+            if (nt) what.appendChild(el("span", { class: "sx-note", text: nt[2] }));
+            li.appendChild(what);
             li.appendChild(el("span", { class: "sx-when", text: tail[2] }));
           } else li.appendChild(rich("span", "sx-what", it.text, { dates: true }));
         } else li.appendChild(inline(it.text));
