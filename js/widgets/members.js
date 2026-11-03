@@ -35,6 +35,7 @@
 
   var T = A.track("members");
   /* Old Sites URL in the sheet → Pages professor profile (site-root relative). */
+  function isExt(u) { try { return new URL(u, location.href).origin !== location.origin; } catch (e) { return true; } }
   function memberProfileLink(raw) {
     var s = String(raw || "").trim();
     if (/sites\.google\.com\/view\/adam-pnu\/team\/professor\/?$/i.test(s)) s = "team/professor/";
@@ -98,7 +99,7 @@
         it.affiliation ? el("div", { class: "aff", text: it.affiliation }) : null,
         el("div", { class: "act" }, [
           it.email ? el("a", { class: "ax-link mail", href: "mailto:" + it.email, text: it.email, target: "_blank", rel: "noopener" }) : null,
-          it.link ? el("a", /^https?:/i.test(it.link) ? { class: "ax-link", href: it.link, target: "_blank", rel: "noopener", text: "Profile" } : { class: "ax-link", href: it.link, text: "Profile" }) : null
+          it.link ? el("a", isExt(it.link) ? { class: "ax-link", href: it.link, target: "_blank", rel: "noopener", text: "Profile" } : { class: "ax-link", href: it.link, text: "Profile" }) : null
         ])
       ])
     ]);
@@ -107,7 +108,7 @@
   function memberCard(it) {
     var tag = it.link ? "a" : "article";
     var attrs = { class: "mb-card ax-in" };
-    if (it.link) { attrs.href = it.link; if (/^https?:/i.test(it.link)) { attrs.target = "_blank"; attrs.rel = "noopener"; } }
+    if (it.link) { attrs.href = it.link; if (isExt(it.link)) { attrs.target = "_blank"; attrs.rel = "noopener"; } }
     if (it.email && !it.link) { tag = "a"; attrs.href = "mailto:" + it.email; attrs.target = "_blank"; attrs.rel = "noopener"; }
     var cardEl = el(tag, attrs, [
       photo(it),
