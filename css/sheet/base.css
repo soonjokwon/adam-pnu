@@ -179,8 +179,8 @@ button { font: inherit; color: inherit; }
 .ax-badge.award::before { content: ""; width: 6px; height: 6px; border-radius: 50%; background: var(--accent); }
 .ax-badge.navy { border-color: var(--navy); color: var(--navy); }
 .ax-badge.solid { background: var(--navy); border-color: var(--navy); color: #fff; }
-.ax-badge.dash { border-style: dashed; color: var(--blue); border-color: var(--blue); }
-.ax-badge.ko { font-family: var(--font-body); letter-spacing: 0; font-size: 11px; }
+.ax-badge.dash { border-style: solid; color: var(--blue); border-color: var(--blue); background: #eef4ff; }
+.ax-badge.ko { font-family: var(--font-body); letter-spacing: 0; font-size: 11px; line-height: 1.2; padding: 3px 7px; }
 
 .ax-link {
   display: inline-flex;
