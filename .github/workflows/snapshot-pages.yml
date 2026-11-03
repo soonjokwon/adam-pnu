@@ -47,12 +47,15 @@ jobs:
       - name: Snapshot sheet → data/*.json
         run: python3 scripts/snapshot_sheet.py
 
+      - name: Rebuild site search index (js/search-index.js)
+        run: python3 scripts/build_search_index.py
+
       - name: Commit and push if changed
         run: |
           set -euo pipefail
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add data/ js/sheet/sheets.js
+          git add data/ js/sheet/sheets.js js/search-index.js
           # Snapshot also rewrites sheets.js?v= on HTML pages (Pages CDN cache-bust)
           git add index.html awards board publications research team
           if git diff --staged --quiet; then
