@@ -160,6 +160,51 @@
   },
   {
    "block": "professor",
+   "section": "Honors & Awards",
+   "type": "entry",
+   "sub": "",
+   "text": "**KSPE Young Engineer**, 한국정밀공학회, 제주 (2022.05)",
+   "link": "",
+   "image": ""
+  },
+  {
+   "block": "professor",
+   "section": "Honors & Awards",
+   "type": "entry",
+   "sub": "",
+   "text": "**NIST Engineering Laboratory Distinguished Associate Award**, National Institute of Standards and Technology (NIST) (2020.05)",
+   "link": "",
+   "image": ""
+  },
+  {
+   "block": "professor",
+   "section": "Honors & Awards",
+   "type": "entry",
+   "sub": "",
+   "text": "**우수논문상 (Best Paper Award)**, 2015 한국CAD/CAM학회 하계학술대회, 용인 — “형상 복잡도를 이용한 특징형상 기반 3D CAD 모델의 단순화” (2015.08)",
+   "link": "",
+   "image": ""
+  },
+  {
+   "block": "professor",
+   "section": "Honors & Awards",
+   "type": "entry",
+   "sub": "",
+   "text": "**Best Presentation Award**, ACDDE 2014 (Asian Conference on Design & Digital Engineering), China — “Connectivity-preserving Simplification of Feature-based 3D CAD Part Models” (2014.11)",
+   "link": "",
+   "image": ""
+  },
+  {
+   "block": "professor",
+   "section": "Honors & Awards",
+   "type": "entry",
+   "sub": "",
+   "text": "**가헌학술상**, 한국CAD/CAM학회 논문집 — “조선해양 기자재 3D CAD 단품 데이터 간략화 시스템 개발” (2013.02)",
+   "link": "",
+   "image": ""
+  },
+  {
+   "block": "professor",
    "section": "Academic Activities",
    "type": "entry",
    "sub": "Membership",
