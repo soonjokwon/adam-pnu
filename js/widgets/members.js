@@ -11,7 +11,7 @@
   var SECTIONS = [
     { id: "researcher", roles: ["postdoc", "researcher"], en: "Researchers", ko: "연구원" },
     { id: "graduate", roles: ["phd", "ms-phd", "ms"], en: "Graduate Students", ko: "대학원생", join: true },
-    { id: "undergrad", roles: ["undergrad"], en: "Undergraduate Researchers", ko: "학부연구생", join: true },
+    { id: "undergrad", roles: ["undergrad"], en: "Undergraduate Students", ko: "학부연구생", join: true },
     { id: "other", roles: ["other"], en: "Others", ko: "기타 (role 확인)" }
   ];
   var ROLE_ALIAS = { "교수": "professor", "책임자": "professor", pi: "professor", "박사후연구원": "postdoc", "연구원": "researcher",
