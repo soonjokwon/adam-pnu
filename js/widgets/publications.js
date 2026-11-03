@@ -259,7 +259,7 @@
       body.appendChild(v);
     }
     var meta = el("div", { class: "pub-meta" });
-    if (state.type === "all" && it.type !== "in-prep") meta.appendChild(el("span", { class: "ax-badge", text: t.lb.toUpperCase() }));
+    if (state.type === "all" && it.type !== "in-prep") meta.appendChild(el("span", { class: "ax-badge pt pt-" + t.id, text: t.lb.toUpperCase() }));
     if (it.presentation === "poster") meta.appendChild(el("span", { class: "ax-badge", text: "POSTER" }));
     if (STATUS_KO[it.status]) meta.appendChild(el("span", { class: "ax-badge dash ko", text: STATUS_KO[it.status] }));
     it.notes.forEach(function (n) {

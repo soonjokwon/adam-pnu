@@ -317,3 +317,8 @@ html.ax-pe .pub-meta .pub-tags,
 html.ax-pe .pub-meta .pub-tags:not(:first-child) { order: 0; flex-basis: auto; padding-left: 0; margin-left: 0; border-left: 0; }
 html.ax-pe .pub-more { margin-top: 8px; padding: 8px; }
 html.ax-pe .pub-empty { padding: 16px 0; }
+/* type tags: journals filled, conferences outlined; intl=navy, korean=orange */
+.ax-badge.pt-journal-intl{background:#102b86;border-color:#102b86;color:#fff}
+.ax-badge.pt-journal-kr{background:#9a5200;border-color:#9a5200;color:#fff}
+.ax-badge.pt-conf-intl{border-color:#102b86;color:#102b86;background:#fff}
+.ax-badge.pt-conf-kr{border-color:#d97e00;color:#9a5200;background:#fff8ec}
