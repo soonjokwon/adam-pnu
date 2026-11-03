@@ -427,3 +427,6 @@
   .news-card { gap: 3px; padding: 6px 9px; height: 100%; }
   .news-title { -webkit-line-clamp: 1; }
 }
+
+/* host page: grid item height:100% + margins overflowed the panel bottom */
+.panel .news-row { height: auto; margin-bottom: 2px; }
