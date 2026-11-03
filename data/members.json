@@ -2,7 +2,7 @@
  "lab": "ADAM Lab@PNU",
  "source": "https://docs.google.com/spreadsheets/d/1bmfsOkVl16OJ2KWzWJG6NtV5Ds98fXKnSiRtxKxgzlw",
  "sheet_tab": "members",
- "extracted": "2026-11-03T10:18:52Z",
+ "extracted": "2026-11-03T10:19:56Z",
  "note": "role: professor | postdoc | researcher | phd | ms-phd | ms | undergrad. status: current | alumni.",
  "columns": [
   "name_ko",
@@ -186,19 +186,19 @@
    "lab": "ADAM Lab@PNU"
   },
   {
-   "name_ko": "",
+   "name_ko": "류경호",
    "name_en": "",
-   "role": "",
-   "position": "",
-   "start": "undergrad",
+   "role": "undergrad",
+   "position": "학사과정",
+   "start": "2026-11",
    "end": "",
-   "status": "",
-   "photo": "",
-   "email": "2026-11",
+   "status": "current",
+   "photo": "assets/members/member-12.jpg",
+   "email": "",
    "link": "",
    "affiliation": "",
-   "history": "current",
-   "lab": ""
+   "history": "",
+   "lab": "ADAM Lab@PNU"
   },
   {
    "name_ko": "김군찬",
