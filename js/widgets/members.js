@@ -98,7 +98,7 @@
         it.affiliation ? el("div", { class: "aff", text: it.affiliation }) : null,
         el("div", { class: "act" }, [
           it.email ? el("a", { class: "ax-link mail", href: "mailto:" + it.email, text: it.email, target: "_blank", rel: "noopener" }) : null,
-          it.link ? el("a", { class: "ax-link", href: it.link, target: "_blank", rel: "noopener", text: "Profile" }) : null
+          it.link ? el("a", /^https?:/i.test(it.link) ? { class: "ax-link", href: it.link, target: "_blank", rel: "noopener", text: "Profile" } : { class: "ax-link", href: it.link, text: "Profile" }) : null
         ])
       ])
     ]);
