@@ -524,7 +524,11 @@ main { display: block; }
   color: var(--ink-dim);
   font-size: 0.82rem;
   line-height: 1.45;
-  max-width: 52ch;
+  max-width: 100%;
+}
+.copyright .nowrap { white-space: nowrap; }
+@media (max-width: 640px) {
+  .copyright { font-size: min(0.82rem, 3vw); }
 }
 
 /* ---------- Site search ---------- */
