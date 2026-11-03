@@ -11,7 +11,7 @@ html:not(.ax-pe):not(.ax-full) .nl.ax-root { padding-top: 6px; padding-bottom: 1
 .nl-tag-award { border-color: var(--accent); color: var(--accent-ink); background: #fff8ec; }
 .nl-tag-paper { border-color: var(--navy); color: #fff; background: var(--navy); }
 .nl-tag-project { border-color: var(--navy); color: var(--navy); }
-.nl-tag-event { border-style: dashed; border-color: var(--blue); color: var(--blue); }
+.nl-tag-event { border-style: solid; border-color: var(--blue); color: var(--blue); background: #eef4ff; }
 .nl-tag-member { color: var(--ink); }
 
 /* ---------- (A) list: 게시판 ---------- */
