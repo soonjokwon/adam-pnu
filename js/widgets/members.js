@@ -107,7 +107,7 @@
   function memberCard(it) {
     var tag = it.link ? "a" : "article";
     var attrs = { class: "mb-card ax-in" };
-    if (it.link) { attrs.href = it.link; attrs.target = "_blank"; attrs.rel = "noopener"; }
+    if (it.link) { attrs.href = it.link; if (/^https?:/i.test(it.link)) { attrs.target = "_blank"; attrs.rel = "noopener"; } }
     if (it.email && !it.link) { tag = "a"; attrs.href = "mailto:" + it.email; attrs.target = "_blank"; attrs.rel = "noopener"; }
     var cardEl = el(tag, attrs, [
       photo(it),
