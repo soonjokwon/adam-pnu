@@ -9,6 +9,7 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Chakra+Petch:wght@500;600;700&family=IBM+Plex+Mono:wght@400;500;600&family=Noto+Sans+KR:wght@400;500;600;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="css/site.css">
+  <link rel="stylesheet" href="css/widgets/gallery.css">
   <link rel="stylesheet" href="css/sheet/tokens.css">
   <link rel="stylesheet" href="css/sheet/base.css">
   <link rel="stylesheet" href="css/sheet/sheet.css">
@@ -70,13 +71,13 @@
         <div class="pillars-visual panel">
           <div class="carousel" data-carousel aria-label="Research pillars images">
             <div class="carousel__slide is-active">
-              <img src="assets/home/pillars/pillar-1.png" alt="Research pillars — Venn diagram" width="800" height="800" decoding="async">
+              <img src="assets/home/pillars/pillar-1.png" data-cap-ko="ADAM Lab 연구의 세 축: Autonomy(Idea to Product, 설계·제조 자동화), Intelligence(Data to Knowledge, 지능화), Digitalization(Physical to Digital, 디지털화). 세 축은 AI 전환(AX)과 디지털 전환(DX)으로 연결됩니다." data-cap-en="Three pillars of ADAM Lab research: Autonomy (Idea to Product), Intelligence (Data to Knowledge) and Digitalization (Physical to Digital), linked by AI transformation (AX) and digital transformation (DX)." alt="Research pillars — Venn diagram" width="800" height="800" decoding="async">
             </div>
             <div class="carousel__slide">
-              <img src="assets/home/pillars/pillar-2.png" alt="Research pillars — Word cloud" width="800" height="800" decoding="async">
+              <img src="assets/home/pillars/pillar-2.png" data-cap-ko="ADAM Lab 연구 키워드: Design을 중심으로 Autonomy, Intelligence, Digitalization, Manufacturing이 연결됩니다." data-cap-en="Research keywords of ADAM Lab: Design at the center, connected with Autonomy, Intelligence, Digitalization and Manufacturing." alt="Research pillars — Word cloud" width="800" height="800" decoding="async">
             </div>
             <div class="carousel__slide">
-              <img src="assets/home/pillars/pillar-3.png" alt="Research pillars — 3D cube" width="800" height="800" decoding="async">
+              <img src="assets/home/pillars/pillar-3.png" data-cap-ko="3D = Design, Data, Digital. 세 축(Design·Data·Digital)으로 3차원(3D) 설계를 다루고, 그 반대도 마찬가지입니다." data-cap-en="3D (Design, Data, Digital) for 3D (three-dimensional), and vice versa." alt="Research pillars — 3D cube" width="800" height="800" decoding="async">
             </div>
             <div class="carousel__dots"></div>
           </div>
@@ -112,5 +113,6 @@
       <div class="site-search__results" role="listbox" aria-live="polite"></div>
     </div>
   </div>
+  <script defer src="js/pillars-lightbox.js"></script>
 </body>
 </html>
