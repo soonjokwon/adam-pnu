@@ -2,7 +2,7 @@
  "lab": "ADAM Lab@PNU",
  "source": "https://docs.google.com/spreadsheets/d/1bmfsOkVl16OJ2KWzWJG6NtV5Ds98fXKnSiRtxKxgzlw",
  "sheet_tab": "members",
- "extracted": "2026-11-03T15:57:21Z",
+ "extracted": "2026-11-06T01:04:42Z",
  "note": "role: professor | postdoc | researcher | phd | ms-phd | ms | undergrad. status: current | alumni.",
  "columns": [
   "name_ko",
