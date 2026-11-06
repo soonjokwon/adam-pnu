@@ -2,7 +2,7 @@
  "lab": "ADAM Lab@PNU",
  "source": "https://docs.google.com/spreadsheets/d/1bmfsOkVl16OJ2KWzWJG6NtV5Ds98fXKnSiRtxKxgzlw",
  "sheet_tab": "publications",
- "extracted": "2026-11-06T01:04:42Z",
+ "extracted": "2026-11-06T05:06:42Z",
  "note": "type: journal-intl | journal-kr | conf-intl | conf-kr | in-prep | other.",
  "columns": [
   "type",
@@ -91,6 +91,23 @@
    "extra_link": ""
   },
   {
+   "type": "",
+   "no": "",
+   "year": "",
+   "authors": "",
+   "title": "STEP to Twin: Generating Asset Administration Shell (AAS) Digital Twins from ISO 10303 STEP Assemblies with Repeated Sub-Assemblies",
+   "topics": "",
+   "venue": "",
+   "details": "",
+   "date": "",
+   "presentation": "",
+   "status": "",
+   "link": "",
+   "note": "",
+   "extra_label": "",
+   "extra_link": ""
+  },
+  {
    "type": "in-prep",
    "no": "",
    "year": "",
@@ -149,7 +166,7 @@
    "title": "Appearance-preserving simplification of non-watertight CAD models using NeuS-guided outer shell extraction",
    "topics": "ai; cad; mesh; dt",
    "venue": "Journal of Computational Design and Engineering",
-   "details": "To be published",
+   "details": "Published online",
    "date": "",
    "presentation": "",
    "status": "published",
