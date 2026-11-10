@@ -13,6 +13,20 @@
  ],
  "items": [
   {
+   "date": "2026-11-09",
+   "caption": "생일 기념",
+   "image": "assets/gallery/photo-24.jpg",
+   "group": "PNU",
+   "link": ""
+  },
+  {
+   "date": "2026-11-09",
+   "caption": "생일 기념",
+   "image": "assets/gallery/photo-25.jpg",
+   "group": "PNU",
+   "link": ""
+  },
+  {
    "date": "2026-05-18",
    "caption": "스승의날 기념",
    "image": "assets/gallery/photo-01.jpg",
