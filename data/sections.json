@@ -163,15 +163,6 @@
    "section": "Honors & Awards",
    "type": "entry",
    "sub": "",
-   "text": "**논문상**, 대한기계학회 — 전예성, 조용우, 유정현, 피영민, 이동준, 배경근, 권순조, 오리가미를 적용한 미래 모빌리티용 다기능 탁자 설계, 기술과 교육, 13(2), 145-155. (2026.11)",
-   "link": "",
-   "image": ""
-  },
-  {
-   "block": "professor",
-   "section": "Honors & Awards",
-   "type": "entry",
-   "sub": "",
    "text": "**가헌학술상**, 한국CDE학회 — 김군찬, 권순조, 심층 강화학습을 활용한 3D 전기 패널의 자동 케이블 라우팅, 한국CDE학회 논문집, 30(1), 122-135. (2026.02)",
    "link": "",
    "image": ""
@@ -182,33 +173,6 @@
    "type": "entry",
    "sub": "",
    "text": "**Distinguished Associate Award**, National Institute of Standards and Technology (NIST) (2020.05)",
-   "link": "",
-   "image": ""
-  },
-  {
-   "block": "professor",
-   "section": "Honors & Awards",
-   "type": "entry",
-   "sub": "",
-   "text": "**우수논문상**, 한국CAD/CAM학회 — 권순조, 문두환, 김병철, 한순흥, 형상 복잡도를 이용한 특징형상 기반 3D CAD 모델의 단순화, 2015 한국CAD/CAM학회 하계학술대회, 용인. (2015.08)",
-   "link": "",
-   "image": ""
-  },
-  {
-   "block": "professor",
-   "section": "Honors & Awards",
-   "type": "entry",
-   "sub": "",
-   "text": "**Best Presentation Award**, China Society for Industrial and Applied Mathematics — S. Kwon, B.C. Kim, D. Mun, S. Han, Connectivity-preserving Simplification of Feature-based 3D CAD Part Models, ACDDE 2014, Jinan, China. (2014.11)",
-   "link": "",
-   "image": ""
-  },
-  {
-   "block": "professor",
-   "section": "Honors & Awards",
-   "type": "entry",
-   "sub": "",
-   "text": "**가헌학술상**, 한국CAD/CAM학회 — 김병철, 권순조, 박선아, 문두환, 한순흥, 조선해양 기자재 3D CAD 단품 데이터 간략화 시스템 개발, 한국CAD/CAM학회 논문집, 18(3), 167-176. (2014.02)",
    "link": "",
    "image": ""
   },
