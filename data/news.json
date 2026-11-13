@@ -2,7 +2,7 @@
  "lab": "ADAM Lab@PNU",
  "source": "https://docs.google.com/spreadsheets/d/1bmfsOkVl16OJ2KWzWJG6NtV5Ds98fXKnSiRtxKxgzlw",
  "sheet_tab": "news",
- "extracted": "2026-11-13T02:40:35Z",
+ "extracted": "2026-11-13T13:53:23Z",
  "note": "Home Latest News + Board · News. tag: Paper | Award | Project | Event | Member.",
  "columns": [
   "date",
@@ -21,15 +21,6 @@
    "tag": "Award",
    "link": "https://doi.org/10.3795/KSME-C.2025.13.2.145",
    "image": "",
-   "link2": ""
-  },
-  {
-   "date": "2026-11-12",
-   "title_ko": "김동빈·박우준·문광민·예브게니 유가이, 대한기계학회 2026년 학술대회 발표",
-   "title_en": "Lab members presented three posters and an oral talk at the KSME 2026 Annual Conference in Jeju.",
-   "tag": "Event",
-   "link": "",
-   "image": "assets/gallery/photo-29.jpg",
    "link2": ""
   },
   {
