@@ -2,7 +2,7 @@
  "lab": "ADAM Lab@PNU",
  "source": "https://docs.google.com/spreadsheets/d/1bmfsOkVl16OJ2KWzWJG6NtV5Ds98fXKnSiRtxKxgzlw",
  "sheet_tab": "sections",
- "extracted": "2026-11-13T13:59:17Z",
+ "extracted": "2026-11-13T14:01:09Z",
  "note": "block/section/type text blocks (Professor, Recruiting, Research, Home).",
  "columns": [
   "block",
