@@ -2,7 +2,7 @@
  "lab": "ADAM Lab@PNU",
  "source": "https://docs.google.com/spreadsheets/d/1bmfsOkVl16OJ2KWzWJG6NtV5Ds98fXKnSiRtxKxgzlw",
  "sheet_tab": "awards",
- "extracted": "2026-11-13T14:33:47Z",
+ "extracted": "2026-11-13T15:02:59Z",
  "note": "category: paper | presentation | competition.",
  "columns": [
   "date",
@@ -44,16 +44,6 @@
    "event": "대한기계학회 논문집 A권, 47(10), 829-840",
    "organizer": "대한기계학회",
    "link": "https://doi.org/10.3795/KSME-A.2023.47.10.829"
-  },
-  {
-   "date": "2014-02-01",
-   "category": "paper",
-   "award": "가헌학술상",
-   "recipients": "김병철, 권순조, 박선아, 문두환, 한순흥",
-   "title": "조선해양 기자재 3D CAD 단품 데이터 간략화 시스템 개발",
-   "event": "한국CAD/CAM학회 논문집, 18(3), 167-176",
-   "organizer": "한국CAD/CAM학회",
-   "link": ""
   },
   {
    "date": "2026-08-21",
@@ -243,26 +233,6 @@
    "title": "효율적인 3D 프린팅을 위한 부품 분해 최적화",
    "event": "대한기계학회 대구경북지회 2020년 춘추계통합학술대회",
    "organizer": "",
-   "link": ""
-  },
-  {
-   "date": "2015-08-19",
-   "category": "presentation",
-   "award": "우수논문상",
-   "recipients": "권순조, 문두환, 김병철, 한순흥",
-   "title": "형상 복잡도를 이용한 특징형상 기반 3D CAD 모델의 단순화",
-   "event": "2015 한국CAD/CAM학회 하계학술대회, 용인",
-   "organizer": "한국CAD/CAM학회",
-   "link": ""
-  },
-  {
-   "date": "2014-11-01",
-   "category": "presentation",
-   "award": "Best Presentation Award",
-   "recipients": "S. Kwon, B.C. Kim, D. Mun, S. Han",
-   "title": "Connectivity-preserving Simplification of Feature-based 3D CAD Part Models",
-   "event": "ACDDE 2014, Jinan, China",
-   "organizer": "China Society for Industrial and Applied Mathematics",
    "link": ""
   },
   {
