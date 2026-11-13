@@ -2,7 +2,7 @@
  "lab": "ADAM Lab@PNU",
  "source": "https://docs.google.com/spreadsheets/d/1bmfsOkVl16OJ2KWzWJG6NtV5Ds98fXKnSiRtxKxgzlw",
  "sheet_tab": "gallery",
- "extracted": "2026-11-13T14:02:34Z",
+ "extracted": "2026-11-13T14:03:39Z",
  "note": "group: PNU | KIT. image: assets/gallery/… preferred.",
  "columns": [
   "date",
@@ -12,6 +12,34 @@
   "link"
  ],
  "items": [
+  {
+   "date": "2026-11-12",
+   "caption": "대한기계학회 2026 학술대회 발표",
+   "image": "assets/gallery/photo-26.jpg",
+   "group": "PNU",
+   "link": ""
+  },
+  {
+   "date": "2026-11-12",
+   "caption": "대한기계학회 2026 학술대회 발표",
+   "image": "assets/gallery/photo-27.jpg",
+   "group": "PNU",
+   "link": ""
+  },
+  {
+   "date": "2026-11-12",
+   "caption": "대한기계학회 2026 학술대회 발표",
+   "image": "assets/gallery/photo-28.jpg",
+   "group": "PNU",
+   "link": ""
+  },
+  {
+   "date": "2026-11-12",
+   "caption": "대한기계학회 2026 학술대회 발표",
+   "image": "assets/gallery/photo-29.jpg",
+   "group": "PNU",
+   "link": ""
+  },
   {
    "date": "2026-11-09",
    "caption": "생일 기념",
@@ -185,6 +213,13 @@
    "caption": "스승의날 기념",
    "image": "assets/gallery/photo-23.jpg",
    "group": "KIT",
+   "link": ""
+  },
+  {
+   "date": "2026-11-12",
+   "caption": "",
+   "image": "",
+   "group": "",
    "link": ""
   }
  ]
