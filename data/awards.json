@@ -2,7 +2,7 @@
  "lab": "ADAM Lab@PNU",
  "source": "https://docs.google.com/spreadsheets/d/1bmfsOkVl16OJ2KWzWJG6NtV5Ds98fXKnSiRtxKxgzlw",
  "sheet_tab": "awards",
- "extracted": "2026-11-13T15:05:12Z",
+ "extracted": "2026-11-13T15:06:12Z",
  "note": "category: paper | presentation | competition.",
  "columns": [
   "date",
@@ -44,6 +44,16 @@
    "event": "대한기계학회 논문집 A권, 47(10), 829-840",
    "organizer": "대한기계학회",
    "link": "https://doi.org/10.3795/KSME-A.2023.47.10.829"
+  },
+  {
+   "date": "2014-02-01",
+   "category": "paper",
+   "award": "가헌학술상",
+   "recipients": "김병철, 권순조, 박선아, 문두환, 한순흥",
+   "title": "조선해양 기자재 3D CAD 단품 데이터 간략화 시스템 개발",
+   "event": "한국CAD/CAM학회 논문집, 18(3), 167-176",
+   "organizer": "한국CAD/CAM학회",
+   "link": ""
   },
   {
    "date": "2026-08-21",
