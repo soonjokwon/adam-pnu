@@ -1571,6 +1571,23 @@
   },
   {
    "type": "conf-kr",
+   "no": "109",
+   "year": "2026",
+   "authors": "Y. Yugay, R. Gandhi, 김삼연, 권순조",
+   "title": "Knowledge-grounded multi-agent part redesign for additive manufacturing",
+   "topics": "am; llm; kg",
+   "venue": "대한기계학회 2026년 학술대회",
+   "details": "제주국제컨벤션센터, 제주, 2026.11.11~13. (11.12.)",
+   "date": "2026-11-12",
+   "presentation": "oral",
+   "status": "presented",
+   "link": "",
+   "note": "",
+   "extra_label": "",
+   "extra_link": ""
+  },
+  {
+   "type": "conf-kr",
    "no": "108",
    "year": "2026",
    "authors": "박우준, 권순조",
