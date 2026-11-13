@@ -10,6 +10,7 @@
   <link href="https://fonts.googleapis.com/css2?family=Chakra+Petch:wght@500;600;700&family=IBM+Plex+Mono:wght@400;500;600&family=Noto+Sans+KR:wght@400;500;600;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="css/site.css">
   <link rel="stylesheet" href="css/widgets/gallery.css">
+  <link rel="stylesheet" href="css/widgets/photo-strip.css">
   <link rel="stylesheet" href="css/sheet/tokens.css">
   <link rel="stylesheet" href="css/sheet/base.css">
   <link rel="stylesheet" href="css/sheet/sheet.css">
@@ -22,6 +23,7 @@
   <script defer src="js/sheet/sheets.js?v=20261113-143347"></script>
   <script defer src="js/sheet/sheet-loader.js"></script>
   <script defer src="js/widgets/news.js"></script>
+  <script defer src="js/widgets/photo-strip.js"></script>
   <script defer src="js/widgets/sections.js"></script>
 <style>.mk-cp{max-width:var(--max);margin:0 auto;padding:30px 16px 14px;display:flex;align-items:flex-end;justify-content:space-between;gap:24px;border-bottom:0}
 .mk-cp h1{font-family:var(--font-display);font-weight:700;color:var(--navy);margin:0;line-height:1.1;letter-spacing:-.01em}
@@ -64,6 +66,12 @@
     <div class="band reveal"><div class="band__inner"><h2>Latest News</h2></div></div>
     <section class="section reveal">
       <div class="panel" id="adam-news"></div>
+    </section>
+    <section class="photo-strip" aria-label="최근 사진">
+      <div class="photo-strip__box">
+        <div class="photo-strip__head"><h2>Recent Photos</h2><a href="board/index.html#adam-gallery">사진첩 전체 보기 →</a></div>
+        <div class="photo-strip__row" id="photoStrip"><div class="ps-skel"></div><div class="ps-skel"></div><div class="ps-skel"></div><div class="ps-skel"></div><div class="ps-skel"></div><div class="ps-skel"></div></div>
+      </div>
     </section>
     <div class="band reveal"><div class="band__inner"><h2>Research Pillars</h2></div></div>
     <section class="section reveal">
