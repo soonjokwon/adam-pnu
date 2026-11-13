@@ -2,7 +2,7 @@
  "lab": "ADAM Lab@PNU",
  "source": "https://docs.google.com/spreadsheets/d/1bmfsOkVl16OJ2KWzWJG6NtV5Ds98fXKnSiRtxKxgzlw",
  "sheet_tab": "sections",
- "extracted": "2026-11-10T03:16:49Z",
+ "extracted": "2026-11-13T02:25:19Z",
  "note": "block/section/type text blocks (Professor, Recruiting, Research, Home).",
  "columns": [
   "block",
@@ -155,15 +155,6 @@
    "type": "entry",
    "sub": "",
    "text": "**인하대학교** 조선해양공학 학사 (2008.03~2011.08)",
-   "link": "",
-   "image": ""
-  },
-  {
-   "block": "professor",
-   "section": "Honors & Awards",
-   "type": "entry",
-   "sub": "",
-   "text": "**논문상**, 대한기계학회 — 전예성, 조용우, 유정현, 피영민, 이동준, 배경근, 권순조, 오리가미를 적용한 미래 모빌리티용 다기능 탁자 설계, 기술과 교육, 13(2), 145-155. (2026.11)",
    "link": "",
    "image": ""
   },

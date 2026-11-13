@@ -2,7 +2,7 @@
  "lab": "ADAM Lab@PNU",
  "source": "https://docs.google.com/spreadsheets/d/1bmfsOkVl16OJ2KWzWJG6NtV5Ds98fXKnSiRtxKxgzlw",
  "sheet_tab": "news",
- "extracted": "2026-11-10T03:16:49Z",
+ "extracted": "2026-11-13T02:25:19Z",
  "note": "Home Latest News + Board · News. tag: Paper | Award | Project | Event | Member.",
  "columns": [
   "date",
@@ -15,11 +15,11 @@
  ],
  "items": [
   {
-   "date": "2026-11-13",
-   "title_ko": "권순조 교수, 2025년 대한기계학회 논문상",
-   "title_en": "Prof. Kwon received the 2025 KSME Paper Award.",
-   "tag": "Award",
-   "link": "https://doi.org/10.3795/KSME-C.2025.13.2.145",
+   "date": "docs.google",
+   "title_ko": "",
+   "title_en": "",
+   "tag": "",
+   "link": "",
    "image": "",
    "link2": ""
   },
