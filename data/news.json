@@ -2,7 +2,7 @@
  "lab": "ADAM Lab@PNU",
  "source": "https://docs.google.com/spreadsheets/d/1bmfsOkVl16OJ2KWzWJG6NtV5Ds98fXKnSiRtxKxgzlw",
  "sheet_tab": "news",
- "extracted": "2026-11-13T14:09:22Z",
+ "extracted": "2026-11-13T14:33:47Z",
  "note": "Home Latest News + Board · News. tag: Paper | Award | Project | Event | Member.",
  "columns": [
   "date",
@@ -29,7 +29,7 @@
    "title_en": "Lab members presented three posters and an oral talk at the KSME 2026 Annual Conference in Jeju.",
    "tag": "Event",
    "link": "",
-   "image": "",
+   "image": "assets/gallery/photo-29.jpg",
    "link2": ""
   },
   {
