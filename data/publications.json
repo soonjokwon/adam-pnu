@@ -2,7 +2,7 @@
  "lab": "ADAM Lab@PNU",
  "source": "https://docs.google.com/spreadsheets/d/1bmfsOkVl16OJ2KWzWJG6NtV5Ds98fXKnSiRtxKxgzlw",
  "sheet_tab": "publications",
- "extracted": "2026-11-13T13:58:07Z",
+ "extracted": "2026-11-13T13:59:17Z",
  "note": "type: journal-intl | journal-kr | conf-intl | conf-kr | in-prep | other.",
  "columns": [
   "type",
@@ -275,7 +275,7 @@
    "link": "https://doi.org/10.1016/j.eswa.2025.126638",
    "note": "",
    "extra_label": "Github",
-   "extra_link": "https://github.com/qhur135/Denoise-yourself"
+   "extra_link": ""
   },
   {
    "type": "journal-intl",
@@ -428,7 +428,7 @@
    "link": "https://doi.org/10.1115/1.4053154",
    "note": "",
    "extra_label": "Github",
-   "extra_link": "https://github.com/usnistgov/AR-PMI"
+   "extra_link": ""
   },
   {
    "type": "journal-intl",
@@ -445,7 +445,7 @@
    "link": "https://doi.org/10.1115/1.4053079",
    "note": "",
    "extra_label": "Github",
-   "extra_link": "https://github.com/usnistgov/STP2OWL"
+   "extra_link": ""
   },
   {
    "type": "journal-intl",
@@ -462,7 +462,7 @@
    "link": "https://doi.org/10.1093/jcde/qwab044",
    "note": "",
    "extra_label": "Github",
-   "extra_link": "https://github.com/Ha-An/2021JCDE"
+   "extra_link": ""
   },
   {
    "type": "journal-intl",
@@ -496,7 +496,7 @@
    "link": "https://doi.org/10.1016/j.addma.2020.101702",
    "note": "",
    "extra_label": "Github",
-   "extra_link": "https://github.com/Ha-An/2021AM"
+   "extra_link": ""
   },
   {
    "type": "journal-intl",
@@ -547,7 +547,7 @@
    "link": "https://doi.org/10.1016/j.aei.2020.101102",
    "note": "",
    "extra_label": "Dataset",
-   "extra_link": "https://doi.org/10.18434/M32146"
+   "extra_link": ""
   },
   {
    "type": "journal-intl",
@@ -564,7 +564,7 @@
    "link": "https://doi.org/10.1093/jcde/qwaa043",
    "note": "",
    "extra_label": "Github",
-   "extra_link": "https://github.com/Macro-parametrics/TransCAD"
+   "extra_link": ""
   },
   {
    "type": "journal-intl",
@@ -1565,6 +1565,57 @@
    "presentation": "",
    "status": "presented",
    "link": "https://www.dbpia.co.kr/journal/articleDetail?nodeId=NODE01998308",
+   "note": "",
+   "extra_label": "",
+   "extra_link": ""
+  },
+  {
+   "type": "conf-kr        108        2026        박우준, 권순조        충돌 회피를 고려한 그래프 신경망 기반 강화학습을 이용한 조립품 분해 순서 계획 생성        rl; assembly        대한기계학회 2026년 학술대회        제주국제컨벤션센터, 제주, 2026.11.11~13. (11.12.)        2026-11-12        poster        presented",
+   "no": "",
+   "year": "",
+   "authors": "",
+   "title": "",
+   "topics": "",
+   "venue": "",
+   "details": "",
+   "date": "",
+   "presentation": "",
+   "status": "",
+   "link": "",
+   "note": "",
+   "extra_label": "",
+   "extra_link": ""
+  },
+  {
+   "type": "conf-kr        107        2026        문광민, 권순조        3D CAD 모델 기반 제조 공정 선택을 위한 VLM 성능 비교        llm; cad; pp        대한기계학회 2026년 학술대회        제주국제컨벤션센터, 제주, 2026.11.11~13. (11.12.)        2026-11-12        poster        presented",
+   "no": "",
+   "year": "",
+   "authors": "",
+   "title": "",
+   "topics": "",
+   "venue": "",
+   "details": "",
+   "date": "",
+   "presentation": "",
+   "status": "",
+   "link": "",
+   "note": "",
+   "extra_label": "",
+   "extra_link": ""
+  },
+  {
+   "type": "conf-kr        106        2026        김동빈, 권순조        멀티모달 신경망을 이용한 CAD 모델 기반 제조 공정 자동 분류        ai; cad; pp        대한기계학회 2026년 학술대회        제주국제컨벤션센터, 제주, 2026.11.11~13. (11.12.)        2026-11-12        poster        presented",
+   "no": "",
+   "year": "",
+   "authors": "",
+   "title": "",
+   "topics": "",
+   "venue": "",
+   "details": "",
+   "date": "",
+   "presentation": "",
+   "status": "",
+   "link": "",
    "note": "",
    "extra_label": "",
    "extra_link": ""
