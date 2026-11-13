@@ -1,0 +1,179 @@
+<!doctype html>
+<html lang="ko">
+<head>
+  <meta charset="utf-8">
+  <meta name="robots" content="noindex,nofollow">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>ADAM Lab@PNU</title>
+  <meta name="description" content="ADAM Lab@PNU — Autonomous Design for Advanced Manufacturing Laboratory, Pusan National University.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Chakra+Petch:wght@500;600;700&family=IBM+Plex+Mono:wght@400;500;600&family=Noto+Sans+KR:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="../../css/site.css">
+  <link rel="stylesheet" href="../../css/widgets/gallery.css">
+  <link rel="stylesheet" href="../../css/sheet/tokens.css">
+  <link rel="stylesheet" href="../../css/sheet/base.css">
+  <link rel="stylesheet" href="../../css/sheet/sheet.css">
+  <link rel="stylesheet" href="../../css/widgets/news.css">
+  <link rel="stylesheet" href="../../css/widgets/sections.css">
+  <script>window.ADAM_SITE_PARAMS = {};</script>
+  <script defer src="../../js/search-index.js"></script>
+  <script defer src="../../js/site.js"></script>
+  <script defer src="../../js/sheet/boot.js"></script>
+  <script defer src="../../js/sheet/sheets.js?v=20261113-143347"></script>
+  <script defer src="../../js/sheet/sheet-loader.js"></script>
+  <script defer src="../../js/widgets/news.js"></script>
+  <script defer src="../../js/widgets/sections.js"></script>
+<style>.mk-cp{max-width:var(--max);margin:0 auto;padding:30px 16px 14px;display:flex;align-items:flex-end;justify-content:space-between;gap:24px;border-bottom:0}
+.mk-cp h1{font-family:var(--font-display);font-weight:700;color:var(--navy);margin:0;line-height:1.1;letter-spacing:-.01em}
+.mk-cp h1 em{font-style:normal;color:var(--accent)}
+.mk-cp p{margin:8px 0 0;font-family:var(--font-body);color:var(--ink-dim);font-size:16px}
+.mk-cp .bar{display:block;width:44px;height:4px;background:var(--accent);margin-bottom:14px}
+.mk-cp .tag{font-family:var(--font-mono);font-size:12px;letter-spacing:.12em;color:var(--ink-faint);text-transform:uppercase;white-space:nowrap}
+.mk-cp h1{font-size:40px}.mk-cp p{color:#4a5680}
+@media (max-width:640px){.mk-cp{flex-direction:column;align-items:flex-start;gap:8px;padding:20px 16px 12px}.mk-cp h1{font-size:28px}.mk-cp p{font-size:14px}.mk-cp .bar{margin-bottom:10px}.mk-cp .tag{font-size:11px}}
+.mk-cp h1{color:#1f2430}.mk-cp h1 em{color:#2f6bff}.mk-cp .bar{background:#2f6bff}.mk-cp p{color:#6b7280}</style>
+<style>
+.mock-banner{background:#161a2b;color:#fff;font:500 12px/1.5 "IBM Plex Mono",monospace;letter-spacing:.04em}
+.mock-banner__in{max-width:var(--max);margin:0 auto;padding:8px 16px;display:flex;flex-wrap:wrap;gap:4px 14px;align-items:center}
+.mock-banner b{color:#ff9900;font-weight:600}
+.mock-banner a{color:#ffd08a}
+</style>
+<style>
+/* MOCKUP B · recent-photos strip directly under the hero (auto from data/gallery.json) */
+.photo-strip{max-width:var(--max);margin:0 auto;padding:0 12px}
+.photo-strip__box{background:#fff;border:1px solid var(--line);border-top:0;padding:10px 12px 12px}
+.photo-strip__head{display:flex;align-items:baseline;gap:10px;margin:0 2px 8px}
+.photo-strip__head h2{margin:0;font-family:var(--font-display);font-weight:700;font-size:14px;letter-spacing:.14em;text-transform:uppercase;color:var(--navy);display:flex;align-items:center;gap:8px}
+.photo-strip__head h2::before{content:"";width:18px;height:3px;background:var(--accent)}
+.photo-strip__head .ko{font-size:12px;color:var(--ink-dim)}
+.photo-strip__head a{margin-left:auto;font-family:var(--font-mono);font-size:12px;letter-spacing:.06em;color:var(--navy);text-decoration:none;white-space:nowrap}
+.photo-strip__head a:hover{color:var(--accent-deep)}
+.photo-strip__row{display:grid;grid-template-columns:repeat(6,minmax(0,1fr));gap:8px}
+.ps-card{display:block;text-decoration:none;color:var(--ink);border:1px solid var(--line);background:#fff;min-width:0;transition:border-color .18s var(--ease),box-shadow .18s var(--ease)}
+.ps-card:hover{border-color:var(--navy);box-shadow:0 0 0 1px rgba(16,43,134,.08),0 8px 18px rgba(16,43,134,.1)}
+.ps-img{position:relative;aspect-ratio:4/3;background:var(--grid);overflow:hidden}
+.ps-img img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;object-position:50% 40%}
+.ps-n{position:absolute;top:5px;right:5px;font-family:var(--font-mono);font-size:10px;color:var(--navy);background:rgba(255,255,255,.92);border:1px solid var(--line);padding:0 5px}
+.ps-cap{padding:5px 7px 6px;display:grid;gap:1px}
+.ps-date{font-family:var(--font-mono);font-size:10.5px;letter-spacing:.06em;color:var(--navy)}
+.ps-text{font-size:12px;font-weight:500;line-height:1.35;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.ps-skel{aspect-ratio:4/3.9;background:linear-gradient(90deg,var(--grid),#fff,var(--grid));border:1px solid var(--line)}
+@media (max-width:820px){
+  .photo-strip__row{display:flex;overflow-x:auto;scroll-snap-type:x mandatory;-webkit-overflow-scrolling:touch;padding-bottom:4px;scrollbar-width:thin}
+  .ps-card,.ps-skel{flex:0 0 40%;scroll-snap-align:start}
+  .photo-strip__head .ko{display:none}
+}
+</style></head>
+<body>
+  <div class="mock-banner" role="note"><div class="mock-banner__in"><b>MOCKUP B · 시안</b><span>대문 첫 화면 바로 아래 「최근 사진」 한 줄 (실제 사이트 미반영)</span><span><a href="../front-photos-a/">시안 A 보기</a></span></div></div>
+  <a class="skip" href="#main">본문으로 건너뛰기</a>
+  <header class="site-header">
+    <div class="site-header__inner">
+      <a class="brand" href="index.html">
+        <img class="brand__logo" src="../../assets/brand/nav-mark.png" alt="" width="36" height="36">
+        <span class="brand__text">
+          <span class="brand__mark">ADAM Lab@PNU</span>
+          <span class="brand__sub">Autonomous Design for Advanced Manufacturing</span>
+        </span>
+      </a>
+      <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="primary-nav">Menu</button>
+      <nav id="primary-nav" class="nav" aria-label="Primary">
+<a href="index.html">Home</a>
+<a href="../../research/index.html">Research</a>
+<a href="../../team/index.html">Team</a>
+<a href="../../awards/index.html">Awards</a>
+<a href="../../publications/index.html">Publications</a>
+<a href="../../board/index.html">Board</a>
+<button type="button" class="search-toggle" aria-expanded="false" aria-controls="site-search" aria-label="Search">
+  <svg viewBox="0 0 20 20" width="18" height="18" aria-hidden="true"><circle cx="8.5" cy="8.5" r="5.5" fill="none" stroke="currentColor" stroke-width="1.8"/><path d="M12.8 12.8 17 17" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/></svg>
+</button>
+</nav>
+    </div>
+  </header>
+  <main id="main">
+    <div class="mk-cp"><div><span class="bar"></span><h1>We <em>redesign</em> design.</h1></div></div><div class="hero-wrap"><div class="hero-frame">
+      <iframe src="../../assets/hero/index.html" title="ADAM Lab Intro" allow="autoplay" loading="eager"></iframe>
+    </div></div>
+    <!-- MOCKUP B: recent photos strip -->
+    <section class="photo-strip" aria-label="최근 사진">
+      <div class="photo-strip__box">
+        <div class="photo-strip__head"><h2>Recent Photos</h2><span class="ko">사진첩 최근 활동</span><a href="../../board/index.html#adam-gallery">사진첩 전체 보기 →</a></div>
+        <div class="photo-strip__row" id="photoStrip"><div class="ps-skel"></div><div class="ps-skel"></div><div class="ps-skel"></div><div class="ps-skel"></div><div class="ps-skel"></div><div class="ps-skel"></div></div>
+      </div>
+    </section>
+    <div class="band reveal"><div class="band__inner"><h2>Latest News</h2></div></div>
+    <section class="section reveal">
+      <div class="panel" id="adam-news"></div>
+    </section>
+    <div class="band reveal"><div class="band__inner"><h2>Research Pillars</h2></div></div>
+    <section class="section reveal">
+      <div class="split pillars-split">
+        <div class="pillars-visual panel">
+          <div class="carousel" data-carousel aria-label="Research pillars images">
+            <div class="carousel__slide is-active">
+              <img src="../../assets/home/pillars/pillar-1.png" data-cap-ko="ADAM Lab 연구의 세 축: Autonomy(자율화), Intelligence(지능화), Digitalization(디지털화). 세 축은 AI 전환(AX)과 디지털 전환(DX)으로 연결됩니다." data-cap-en="Three pillars of ADAM Lab research: Autonomy, Intelligence and Digitalization, linked by AI transformation (AX) and digital transformation (DX)." alt="Research pillars — Venn diagram" width="800" height="800" decoding="async">
+            </div>
+            <div class="carousel__slide">
+              <img src="../../assets/home/pillars/pillar-2.png" data-cap-ko="ADAM Lab 연구 키워드: Design을 중심으로 Autonomy, Intelligence, Digitalization, Manufacturing이 연결됩니다." data-cap-en="Research keywords of ADAM Lab: Design at the center, connected with Autonomy, Intelligence, Digitalization and Manufacturing." alt="Research pillars — Word cloud" width="800" height="800" decoding="async">
+            </div>
+            <div class="carousel__slide">
+              <img src="../../assets/home/pillars/pillar-3.png" data-cap-ko="Design·Data·Digital 세 축으로 3D를 다루고, 3D와 관련한 Design·Data·Digital 연구를 수행합니다." data-cap-en="We address 3D through Design, Data and Digital, and carry out Design, Data and Digital research related to 3D." alt="Research pillars — 3D cube" width="800" height="800" decoding="async">
+            </div>
+            <div class="carousel__dots"></div>
+          </div>
+        </div>
+        <div class="panel pillars-aid" data-adam="sections" data-block="home-pillars"></div>
+      </div>
+    </section>
+    <div class="band reveal"><div class="band__inner"><h2>Growth Pillars</h2></div></div>
+    <section class="section reveal"><div class="panel" data-adam="sections" data-block="home-growth"></div></section>
+    <div class="band reveal"><div class="band__inner"><h2>Join ADAM Lab</h2></div></div>
+    <section class="section reveal"><div class="panel" data-adam="sections" data-block="home-join"></div></section>
+  </main>
+  <footer class="site-footer">
+    <div class="site-footer__inner">
+      <div class="footer-logos">
+        <a class="footer-logo" href="https://www.pusan.ac.kr/" target="_blank" rel="noopener" title="Pusan National University">
+          <img src="../../assets/brand/pnu-logo.png" alt="Pusan National University" width="280" height="70" loading="lazy">
+        </a>
+        <a class="footer-logo" href="https://me.pusan.ac.kr/" target="_blank" rel="noopener" title="School of Mechanical Engineering">
+          <img src="../../assets/brand/mech-logo.png" alt="School of Mechanical Engineering, PNU" width="120" height="76" loading="lazy">
+        </a>
+      </div>
+      <p class="copyright"><span class="nowrap">© ADAM Lab / Autonomous Design for Advanced Manufacturing,</span> <span class="nowrap">Pusan National University</span></p>
+    </div>
+  </footer>
+
+  <div id="site-search" class="site-search" hidden>
+    <div class="site-search__panel" role="dialog" aria-modal="true" aria-label="Site search">
+      <form class="site-search__form" action="#" method="get">
+        <input type="search" name="q" class="site-search__input" placeholder="뉴스·논문·수상·과제 검색" autocomplete="off" enterkeyhint="search">
+        <button type="button" class="site-search__close" aria-label="Close search">×</button>
+      </form>
+      <div class="site-search__results" role="listbox" aria-live="polite"></div>
+    </div>
+  </div>
+  <script defer src="../../js/pillars-lightbox.js"></script>
+<script>
+/* MOCKUP B: newest 6 gallery albums (caption + year + group, same rule as the Board gallery) */
+(function(){
+  var ROOT=window.ADAM_ROOT||new URL("../../",location.href).href;
+  var ASSET="https://soonjokwon.github.io/adam-lab-widgets/";
+  var row=document.getElementById("photoStrip");
+  function thumb(p){var m=String(p).match(/^assets\/gallery\/([\w.-]+?)\.(jpe?g|png|webp)$/i);return m?ASSET+"assets/gallery/thumbs/"+m[1]+"-480.jpg":(/^https?:/.test(p)?p:ASSET+p);}
+  function dot(d){return d?d.replace(/^20(\d\d)-(\d\d)-(\d\d)$/,"$1.$2.$3"):"";}
+  function esc(t){return String(t).replace(/[&<>"]/g,function(c){return {"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c];});}
+  fetch(new URL("data/gallery.json",ROOT).href,{cache:"no-store"}).then(function(r){return r.json();}).then(function(j){
+    var rows=(j.items||[]).filter(function(r){return r.image;}).map(function(r,i){r.i=i;return r;});
+    rows.sort(function(a,b){return a.date===b.date?a.i-b.i:(a.date<b.date?1:-1);});
+    var map={},order=[];
+    rows.forEach(function(r){var k=(r.caption||"")+"|"+String(r.date||"").slice(0,4)+"|"+(r.group||"");if(!map[k]){map[k]=[];order.push(k);}map[k].push(r);});
+    row.innerHTML=order.slice(0,6).map(function(k){var a=map[k],f=a[0],name=(f.image.match(/([\w-]+)\.\w+$/)||[])[1]||"";
+      return '<a class="ps-card" href="../../board/index.html?photo='+name+'#adam-gallery"><div class="ps-img"><img src="'+esc(thumb(f.image))+'" alt="'+esc(f.caption)+'" loading="lazy">'+(a.length>1?'<span class="ps-n">'+a.length+'장</span>':'')+'</div><div class="ps-cap"><span class="ps-date">'+dot(f.date)+'</span><span class="ps-text">'+esc(f.caption)+'</span></div></a>';
+    }).join("");
+  }).catch(function(){row.closest(".photo-strip").hidden=true;});
+})();
+</script>
+</body>
+</html>
