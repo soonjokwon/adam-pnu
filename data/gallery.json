@@ -2,7 +2,7 @@
  "lab": "ADAM Lab@PNU",
  "source": "https://docs.google.com/spreadsheets/d/1bmfsOkVl16OJ2KWzWJG6NtV5Ds98fXKnSiRtxKxgzlw",
  "sheet_tab": "gallery",
- "extracted": "2026-11-13T15:09:10Z",
+ "extracted": "2026-11-14T00:50:04Z",
  "note": "group: PNU | KIT. image: assets/gallery/… preferred.",
  "columns": [
   "date",
@@ -12,20 +12,6 @@
   "link"
  ],
  "items": [
-  {
-   "date": "2026-11-12",
-   "caption": "대한기계학회 2026 학술대회 발표",
-   "image": "assets/gallery/photo-30.jpg",
-   "group": "PNU",
-   "link": ""
-  },
-  {
-   "date": "2026-11-12",
-   "caption": "대한기계학회 2026 학술대회 발표",
-   "image": "assets/gallery/photo-31.jpg",
-   "group": "PNU",
-   "link": ""
-  },
   {
    "date": "2026-11-12",
    "caption": "대한기계학회 2026 학술대회 발표",
