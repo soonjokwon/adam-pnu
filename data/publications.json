@@ -2,7 +2,7 @@
  "lab": "ADAM Lab@PNU",
  "source": "https://docs.google.com/spreadsheets/d/1bmfsOkVl16OJ2KWzWJG6NtV5Ds98fXKnSiRtxKxgzlw",
  "sheet_tab": "publications",
- "extracted": "2026-11-16T16:08:49Z",
+ "extracted": "2026-11-16T16:09:58Z",
  "note": "type: journal-intl | journal-kr | conf-intl | conf-kr | in-prep | other.",
  "columns": [
   "type",
@@ -851,7 +851,7 @@
    "presentation": "",
    "status": "published",
    "link": "https://doi.org/10.3795/KSME-C.2025.13.2.145",
-   "note": "대한기계학회논문집C 최우수논문",
+   "note": "최우수논문상",
    "extra_label": "",
    "extra_link": ""
   },
@@ -953,7 +953,7 @@
    "presentation": "",
    "status": "published",
    "link": "https://doi.org/10.3795/KSME-A.2023.47.10.829",
-   "note": "대한기계학회논문집A 우수논문",
+   "note": "우수논문상",
    "extra_label": "",
    "extra_link": ""
   },
