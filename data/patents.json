@@ -2,7 +2,7 @@
  "lab": "ADAM Lab@PNU",
  "source": "https://docs.google.com/spreadsheets/d/1bmfsOkVl16OJ2KWzWJG6NtV5Ds98fXKnSiRtxKxgzlw",
  "sheet_tab": "patents",
- "extracted": "2026-11-20T09:44:36Z",
+ "extracted": "2026-11-20T09:45:39Z",
  "note": "status: registered | filed.",
  "columns": [
   "no",
@@ -17,18 +17,18 @@
  "items": [
   {
    "no": "15",
-   "title": "",
-   "topics": "llm",
+   "title": "형상 계측과 학습 모델 판단의 정합을 이용한 제조공정 선정 방법 및 시스템",
+   "topics": "cad; llm",
    "status": "filed",
-   "number": "",
-   "date": "",
+   "number": "10-2026-0234990",
+   "date": "2026-11-20",
    "link": "",
    "note": ""
   },
   {
    "no": "14",
    "title": "삼차원 설계 데이터를 활용한 생성형 인공지능 모델 기반의 제조공정 추천 시스템 및 이를 이용한 제조공정 추천방법",
-   "topics": "llm",
+   "topics": "cad; llm",
    "status": "filed",
    "number": "10-2025-0158815",
    "date": "2025-10-29",
