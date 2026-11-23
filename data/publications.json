@@ -2,7 +2,7 @@
  "lab": "ADAM Lab@PNU",
  "source": "https://docs.google.com/spreadsheets/d/1bmfsOkVl16OJ2KWzWJG6NtV5Ds98fXKnSiRtxKxgzlw",
  "sheet_tab": "publications",
- "extracted": "2026-11-23T15:30:11Z",
+ "extracted": "2026-11-23T15:30:39Z",
  "note": "type: journal-intl | journal-kr | conf-intl | conf-kr | in-prep | other.",
  "columns": [
   "type",
@@ -1694,7 +1694,7 @@
    "year": "2026",
    "authors": "권순조, 문광민, 심현수, 김동빈",
    "title": "AI 기반 적합 제조 공정 추천 시스템 개발",
-   "topics": "ai; cad; llm; pp",
+   "topics": "ai; cad; pp",
    "venue": "한국CDE학회 2026 하계학술대회",
    "details": "제주 부영호텔&리조트, 제주, 2026.08.19~08.22. (08.20.)",
    "date": "2026-08-20",
