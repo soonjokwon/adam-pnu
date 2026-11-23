@@ -2,7 +2,7 @@
  "lab": "ADAM Lab@PNU",
  "source": "https://docs.google.com/spreadsheets/d/1bmfsOkVl16OJ2KWzWJG6NtV5Ds98fXKnSiRtxKxgzlw",
  "sheet_tab": "publications",
- "extracted": "2026-11-20T09:45:39Z",
+ "extracted": "2026-11-23T15:29:04Z",
  "note": "type: journal-intl | journal-kr | conf-intl | conf-kr | in-prep | other.",
  "columns": [
   "type",
@@ -1622,7 +1622,7 @@
   },
   {
    "type": "conf-kr",
-   "no": "107",
+   "no": "108",
    "year": "2026",
    "authors": "김동빈, 권순조",
    "title": "멀티모달 신경망을 이용한 CAD 모델 기반 제조 공정 자동 분류",
@@ -1639,7 +1639,7 @@
   },
   {
    "type": "conf-kr",
-   "no": "106",
+   "no": "107",
    "year": "2026",
    "authors": "전예성, 권순조, 김현찬",
    "title": "이미지 기반 객체 탐지와 B-rep 기반 검증을 결합한 3D CAD 국소 가공 특징형상 인식",
@@ -1656,7 +1656,7 @@
   },
   {
    "type": "conf-kr",
-   "no": "105",
+   "no": "106",
    "year": "2026",
    "authors": "문광민, 권순조",
    "title": "3차원 모델 기반 적합 제조 공정 선택을 위한 멀티 에이전트 LLM의 활용",
@@ -1673,7 +1673,7 @@
   },
   {
    "type": "conf-kr",
-   "no": "104",
+   "no": "105",
    "year": "2026",
    "authors": "박현석, 김태길, 권순조",
    "title": "산업 디자인 초기 단계에서의 간섭 검증을 위한 지식 기반 강화 학습",
@@ -1687,6 +1687,23 @@
    "note": "우수포스터상",
    "extra_label": "요약",
    "extra_link": "https://webzine.cde.or.kr/webzine/sub.html?md_no=295"
+  },
+  {
+   "type": "conf-kr",
+   "no": "104",
+   "year": "2026",
+   "authors": "박현석, 김태길, 권순조",
+   "title": "산업 디자인 초기 단계에서의 간섭 검증을 위한 지식 기반 강화 학습",
+   "topics": "rl",
+   "venue": "한국CDE학회 2026 하계학술대회",
+   "details": "제주 부영호텔&리조트, 제주, 2026.08.19~08.22. (08.20.)",
+   "date": "2026-08-20",
+   "presentation": "poster",
+   "status": "presented",
+   "link": "",
+   "note": "",
+   "extra_label": "",
+   "extra_link": ""
   },
   {
    "type": "conf-kr",
