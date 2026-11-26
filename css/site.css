@@ -473,6 +473,7 @@ main { display: block; }
   .reveal { opacity: 1; transform: none; transition: none; }
   .carousel__slide { transition: none; }
   .panel { transition: none; }
+  .adam-top { transition: none; }
 }
 
 /* ---------- Footer ---------- */
@@ -529,6 +530,52 @@ main { display: block; }
 .copyright .nowrap { white-space: nowrap; }
 @media (max-width: 640px) {
   .copyright { font-size: min(0.82rem, 3vw); }
+}
+
+/* ---------- Scroll to top ---------- */
+.adam-top {
+  --adam-top-lift: 0px;
+  position: fixed;
+  right: 24px;
+  bottom: calc(24px + var(--adam-top-lift));
+  z-index: 40;
+  width: 44px;
+  height: 44px;
+  padding: 0;
+  border: 0;
+  border-radius: 50%;
+  background: var(--navy, #102b86);
+  color: #fff;
+  cursor: pointer;
+  display: grid;
+  place-items: center;
+  box-shadow: 0 8px 18px rgba(16, 43, 134, 0.22);
+  opacity: 0;
+  visibility: hidden;
+  pointer-events: none;
+  transform: translateY(8px);
+  transition:
+    opacity 0.25s var(--ease, cubic-bezier(0.2, 0.7, 0.2, 1)),
+    transform 0.25s var(--ease, cubic-bezier(0.2, 0.7, 0.2, 1)),
+    visibility 0.25s,
+    background 0.2s var(--ease, cubic-bezier(0.2, 0.7, 0.2, 1));
+}
+.adam-top.is-visible {
+  opacity: 1;
+  visibility: visible;
+  transform: none;
+  pointer-events: auto;
+}
+.adam-top:hover { background: var(--blue, #0707aa); }
+.adam-top:focus-visible {
+  outline: 2px solid var(--accent, #ff9900);
+  outline-offset: 3px;
+}
+@media (max-width: 640px) {
+  .adam-top {
+    right: 16px;
+    bottom: calc(16px + env(safe-area-inset-bottom, 0px) + var(--adam-top-lift));
+  }
 }
 
 /* ---------- Site search ---------- */

@@ -358,6 +358,59 @@
     });
   }
 
+  function bindScrollTop() {
+    var btn = document.getElementById("adam-top");
+    if (!btn) {
+      btn = document.createElement("button");
+      btn.type = "button";
+      btn.className = "adam-top";
+      btn.id = "adam-top";
+      btn.setAttribute("aria-label", "맨 위로");
+      btn.innerHTML = '<svg viewBox="0 0 24 24" width="20" height="20" aria-hidden="true"><path d="M6 14.5 12 8.5 18 14.5" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg>';
+      document.body.appendChild(btn);
+    }
+
+    var THRESHOLD = 400;
+    var GAP = 12;
+
+    function place() {
+      btn.classList.toggle("is-visible", window.scrollY > THRESHOLD);
+      btn.style.setProperty("--adam-top-lift", "0px");
+
+      var anchor = document.querySelector(".copyright") || document.querySelector(".site-footer");
+      if (!anchor) return;
+
+      var rect = anchor.getBoundingClientRect();
+      var cs = window.getComputedStyle(btn);
+      var base = parseFloat(cs.bottom) || 24;
+      var sizeW = btn.offsetWidth || 44;
+      var right = parseFloat(cs.right) || 24;
+      var vh = window.innerHeight;
+      var vw = window.innerWidth;
+      var btnLeft = vw - right - sizeW;
+      var btnRight = vw - right;
+      var btnBottom = vh - base;
+      var overlapsX = rect.left < btnRight && rect.right > btnLeft;
+      var inViewY = rect.top < vh && rect.bottom > 0;
+      if (overlapsX && inViewY && rect.top < btnBottom + GAP) {
+        var extra = Math.max(0, btnBottom - rect.top + GAP);
+        btn.style.setProperty("--adam-top-lift", extra + "px");
+      }
+    }
+
+    window.addEventListener("scroll", place, { passive: true });
+    window.addEventListener("resize", place);
+    place();
+
+    btn.addEventListener("click", function () {
+      var reduce = false;
+      try {
+        reduce = window.matchMedia("(prefers-reduced-motion: reduce)").matches;
+      } catch (err) {}
+      window.scrollTo({ top: 0, behavior: reduce ? "auto" : "smooth" });
+    });
+  }
+
   document.addEventListener("DOMContentLoaded", function () {
     markNav();
     bindNavToggle();
@@ -365,5 +418,6 @@
     bindReveal();
     bindSearch();
     bindSearchTarget();
+    bindScrollTop();
   });
 })();
