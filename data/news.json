@@ -2,7 +2,7 @@
  "lab": "ADAM Lab@PNU",
  "source": "https://docs.google.com/spreadsheets/d/1bmfsOkVl16OJ2KWzWJG6NtV5Ds98fXKnSiRtxKxgzlw",
  "sheet_tab": "news",
- "extracted": "2026-11-26T03:44:07Z",
+ "extracted": "2026-11-26T04:05:50Z",
  "note": "Home Latest News + Board · News. tag: Paper | Award | Project | Event | Member.",
  "columns": [
   "date",
@@ -36,24 +36,6 @@
    "date": "2026-11-02",
    "title_ko": "류경호 학사과정, 학부연구생으로 합류",
    "title_en": "류경호 joined ADAM Lab as an undergraduate researcher.",
-   "tag": "Member",
-   "link": "",
-   "image": "",
-   "link2": ""
-  },
-  {
-   "date": "2026-11-01",
-   "title_ko": "김호건 학사과정, 학부연구생으로 합류",
-   "title_en": "김호건 joined ADAM Lab as an undergraduate researcher.",
-   "tag": "Member",
-   "link": "",
-   "image": "",
-   "link2": ""
-  },
-  {
-   "date": "2026-11-01",
-   "title_ko": "이화정 학사과정, 학부연구생으로 합류",
-   "title_en": "이화정 joined ADAM Lab as an undergraduate researcher.",
    "tag": "Member",
    "link": "",
    "image": "",
