@@ -2,7 +2,7 @@
  "lab": "ADAM Lab@PNU",
  "source": "https://docs.google.com/spreadsheets/d/1bmfsOkVl16OJ2KWzWJG6NtV5Ds98fXKnSiRtxKxgzlw",
  "sheet_tab": "publications",
- "extracted": "2026-11-26T13:51:34Z",
+ "extracted": "2026-11-26T13:52:09Z",
  "note": "type: journal-intl | journal-kr | conf-intl | conf-kr | in-prep | other.",
  "columns": [
   "type",
@@ -166,7 +166,7 @@
    "title": "Appearance-preserving simplification of non-watertight CAD models using NeuS-guided outer shell extraction",
    "topics": "ai; cad; mesh; dt",
    "venue": "Journal of Computational Design and Engineering",
-   "details": "13(11), 149-172, Nov 6",
+   "details": "13(11), 149-172, Nov 5",
    "date": "",
    "presentation": "",
    "status": "published",
