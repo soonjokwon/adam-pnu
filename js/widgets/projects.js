@@ -67,13 +67,15 @@
     });
     T.done(out.length);
     var rank = { ongoing: 0, upcoming: 1, completed: 2 };
+    out.forEach(function (it) { it.rank = rank[it.status]; });
     out.sort(function (a, b) {
       var ga = a.group === "PNU" ? 0 : a.group === "OTHER" ? 2 : 1, gb = b.group === "PNU" ? 0 : b.group === "OTHER" ? 2 : 1;
       if (ga !== gb) return ga - gb;
       if (a.group !== b.group) return a.group < b.group ? -1 : 1;
+      var ra = a.rank != null ? a.rank : 9, rb = b.rank != null ? b.rank : 9;
+      if (ra !== rb) return ra - rb;
       return a.order - b.order;
     });
-    out.forEach(function (it) { it.rank = rank[it.status]; });
     return out;
   }
 
