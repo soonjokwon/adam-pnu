@@ -279,6 +279,9 @@
 
     var idx = it.no ? (t.pre || "#") + it.no : "·";
     var li = el("li", { class: "pub-item" }, [el("div", { class: "pub-idx", text: idx }), body]);
+    if (window.ADAMCite && typeof window.ADAMCite.attach === "function") {
+      window.ADAMCite.attach(li, it, body, meta);
+    }
     A.markKey(li, "publication", it.title);
     return li;
   }
