@@ -2,7 +2,7 @@
  "lab": "ADAM Lab@PNU",
  "source": "https://docs.google.com/spreadsheets/d/1bmfsOkVl16OJ2KWzWJG6NtV5Ds98fXKnSiRtxKxgzlw",
  "sheet_tab": "patents",
- "extracted": "2026-11-27T09:12:18Z",
+ "extracted": "2026-11-27T09:13:24Z",
  "note": "status: registered | filed.",
  "columns": [
   "no",
@@ -15,6 +15,16 @@
   "note"
  ],
  "items": [
+  {
+   "no": "16",
+   "title": "강화학습 기반 내부 부품 배치를 이용한 제품 디자인의 사용 가능성 판정 방법 및 시스템",
+   "topics": "cad; rl; assembly",
+   "status": "filed",
+   "number": "10-2026-0243623",
+   "date": "",
+   "link": "",
+   "note": ""
+  },
   {
    "no": "15",
    "title": "형상 계측과 학습 모델 판단의 정합을 이용한 제조공정 선정 방법 및 시스템",
@@ -138,7 +148,7 @@
   {
    "no": "3",
    "title": "기자재 정보 공유 시스템 및 방법",
-   "topics": "",
+   "topics": "std",
    "status": "registered",
    "number": "10-1715462",
    "date": "2017-03-06",
