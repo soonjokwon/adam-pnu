@@ -2,7 +2,7 @@
  "lab": "ADAM Lab@PNU",
  "source": "https://docs.google.com/spreadsheets/d/1bmfsOkVl16OJ2KWzWJG6NtV5Ds98fXKnSiRtxKxgzlw",
  "sheet_tab": "publications",
- "extracted": "2026-11-27T12:08:11Z",
+ "extracted": "2026-11-27T12:09:39Z",
  "note": "type: journal-intl | journal-kr | conf-intl | conf-kr | in-prep | other.",
  "columns": [
   "type",
@@ -1689,7 +1689,7 @@
    "extra_link": "https://webzine.cde.or.kr/webzine/sub.html?md_no=295"
   },
   {
-   "type": "conf-kr",
+   "type": "",
    "no": "104",
    "year": "2026",
    "authors": "권순조, 문광민, 심현수, 김동빈",

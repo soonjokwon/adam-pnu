@@ -2,7 +2,7 @@
  "lab": "ADAM Lab@PNU",
  "source": "https://docs.google.com/spreadsheets/d/1bmfsOkVl16OJ2KWzWJG6NtV5Ds98fXKnSiRtxKxgzlw",
  "sheet_tab": "news",
- "extracted": "2026-11-27T12:08:11Z",
+ "extracted": "2026-11-27T12:09:39Z",
  "note": "Home Latest News + Board · News. tag: Paper | Award | Project | Event | Member.",
  "columns": [
   "date",
@@ -24,10 +24,10 @@
    "link2": ""
   },
   {
-   "date": "2026-11-27\t=JOIN(\"\",ARRAYFORMULA(UNICHAR({48149,54788,49437,183,49900,54788,49688})))&\", 2026 \"&JOIN(\"\",ARRAYFORMULA(UNICHAR({54620,44397,44592,44228,44032,44277,54617,54924})))&\" \"&JOIN(\"\",ARRAYFORMULA(UNICHAR({52628,44228,54617,49696,45824,54924})))&\" \"&JOIN(\"\",ARRAYFORMULA(UNICHAR({54252,49828,53552})))&\" \"&JOIN(\"\",ARRAYFORMULA(UNICHAR({48156,54364})))\tLab members presented two posters at the KSMPE 2026 Autumn Conference in Jeju.\tEvent",
-   "title_ko": "",
-   "title_en": "",
-   "tag": "",
+   "date": "2026-11-27",
+   "title_ko": "박현석·심현수, 2026 한국기계가공학회 추계학술대회 포스터 발표",
+   "title_en": "Lab members presented two posters at the KSMPE 2026 Autumn Conference in Jeju.",
+   "tag": "Event",
    "link": "",
    "image": "",
    "link2": ""
