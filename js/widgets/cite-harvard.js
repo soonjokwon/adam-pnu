@@ -275,6 +275,7 @@
     } else {
       btn.classList.remove("is-copied");
       btn.textContent = "Cite";
+      btn.setAttribute("aria-label", "인용문 복사" + (btn.getAttribute("data-cite-title") ? ": " + btn.getAttribute("data-cite-title") : ""));
     }
   }
 
@@ -282,7 +283,7 @@
     var t = ensureToast();
     t.classList.toggle("is-fallback", !ok);
     t.querySelector(".cite-toast__msg").textContent = ok
-      ? "Harvard 서식을 복사했습니다"
+      ? "인용문이 복사되었습니다"
       : "복사하지 못했습니다. 아래 문구를 선택해 복사해 주세요.";
     var preview = t.querySelector(".cite-toast__preview");
     preview.textContent = cite.text;
@@ -309,7 +310,7 @@
     btn.type = "button";
     btn.className = "pub-cite";
     btn.textContent = "Cite";
-    btn.setAttribute("aria-label", "Harvard 서식으로 인용하기: " + (it.title || ""));
+    btn.setAttribute("aria-label", "인용문 복사: " + (it.title || ""));
     btn.setAttribute("data-cite-title", it.title || "");
     btn.setAttribute("data-cite-type", it.type || "");
     if (meta) meta.appendChild(btn);
