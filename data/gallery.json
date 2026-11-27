@@ -2,7 +2,7 @@
  "lab": "ADAM Lab@PNU",
  "source": "https://docs.google.com/spreadsheets/d/1bmfsOkVl16OJ2KWzWJG6NtV5Ds98fXKnSiRtxKxgzlw",
  "sheet_tab": "gallery",
- "extracted": "2026-11-27T12:09:39Z",
+ "extracted": "2026-11-27T12:24:51Z",
  "note": "group: PNU | KIT. image: assets/gallery/… preferred.",
  "columns": [
   "date",
@@ -12,41 +12,6 @@
   "link"
  ],
  "items": [
-  {
-   "date": "2026-11-27",
-   "caption": "한국기계가공학회 2026 추계학술대회 발표",
-   "image": "assets/gallery/photo-32.jpg",
-   "group": "PNU",
-   "link": ""
-  },
-  {
-   "date": "2026-11-27",
-   "caption": "한국기계가공학회 2026 추계학술대회 발표",
-   "image": "assets/gallery/photo-33.jpg",
-   "group": "PNU",
-   "link": ""
-  },
-  {
-   "date": "2026-11-27",
-   "caption": "한국기계가공학회 2026 추계학술대회 발표",
-   "image": "assets/gallery/photo-34.jpg",
-   "group": "PNU",
-   "link": ""
-  },
-  {
-   "date": "2026-11-27",
-   "caption": "한국기계가공학회 2026 추계학술대회 발표",
-   "image": "assets/gallery/photo-35.jpg",
-   "group": "PNU",
-   "link": ""
-  },
-  {
-   "date": "2026-11-27",
-   "caption": "한국기계가공학회 2026 추계학술대회 발표",
-   "image": "assets/gallery/photo-36.jpg",
-   "group": "PNU",
-   "link": ""
-  },
   {
    "date": "2026-11-12",
    "caption": "대한기계학회 2026 학술대회 발표",
