@@ -2,7 +2,7 @@
  "lab": "ADAM Lab@PNU",
  "source": "https://docs.google.com/spreadsheets/d/1bmfsOkVl16OJ2KWzWJG6NtV5Ds98fXKnSiRtxKxgzlw",
  "sheet_tab": "patents",
- "extracted": "2026-11-27T09:13:24Z",
+ "extracted": "2026-11-27T09:13:51Z",
  "note": "status: registered | filed.",
  "columns": [
   "no",
@@ -21,7 +21,7 @@
    "topics": "cad; rl; assembly",
    "status": "filed",
    "number": "10-2026-0243623",
-   "date": "",
+   "date": "2026-11-27",
    "link": "",
    "note": ""
   },
