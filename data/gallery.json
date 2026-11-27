@@ -2,7 +2,7 @@
  "lab": "ADAM Lab@PNU",
  "source": "https://docs.google.com/spreadsheets/d/1bmfsOkVl16OJ2KWzWJG6NtV5Ds98fXKnSiRtxKxgzlw",
  "sheet_tab": "gallery",
- "extracted": "2026-11-27T12:26:13Z",
+ "extracted": "2026-11-27T12:29:09Z",
  "note": "group: PNU | KIT. image: assets/gallery/… preferred.",
  "columns": [
   "date",
@@ -20,31 +20,31 @@
    "link": ""
   },
   {
-   "date": "2026-11-27\t=JOIN(\"\",ARRAYFORMULA(UNICHAR({54620,44397,44592,44228,44032,44277,54617,54924})))&\" 2026 \"&JOIN(\"\",ARRAYFORMULA(UNICHAR({52628,44228,54617,49696,45824,54924})))&\" \"&JOIN(\"\",ARRAYFORMULA(UNICHAR({48156,54364})))\tassets/gallery/photo-33.jpg\tPNU",
-   "caption": "",
-   "image": "",
-   "group": "",
+   "date": "2026-11-27",
+   "caption": "한국기계가공학회 2026 추계학술대회 발표",
+   "image": "assets/gallery/photo-33.jpg",
+   "group": "PNU",
    "link": ""
   },
   {
-   "date": "2026-11-27\t=JOIN(\"\",ARRAYFORMULA(UNICHAR({54620,44397,44592,44228,44032,44277,54617,54924})))&\" 2026 \"&JOIN(\"\",ARRAYFORMULA(UNICHAR({52628,44228,54617,49696,45824,54924})))&\" \"&JOIN(\"\",ARRAYFORMULA(UNICHAR({48156,54364})))\tassets/gallery/photo-34.jpg\tPNU",
-   "caption": "",
-   "image": "",
-   "group": "",
+   "date": "2026-11-27",
+   "caption": "한국기계가공학회 2026 추계학술대회 발표",
+   "image": "assets/gallery/photo-34.jpg",
+   "group": "PNU",
    "link": ""
   },
   {
-   "date": "2026-11-27\t=JOIN(\"\",ARRAYFORMULA(UNICHAR({54620,44397,44592,44228,44032,44277,54617,54924})))&\" 2026 \"&JOIN(\"\",ARRAYFORMULA(UNICHAR({52628,44228,54617,49696,45824,54924})))&\" \"&JOIN(\"\",ARRAYFORMULA(UNICHAR({48156,54364})))\tassets/gallery/photo-35.jpg\tPNU",
-   "caption": "",
-   "image": "",
-   "group": "",
+   "date": "2026-11-27",
+   "caption": "한국기계가공학회 2026 추계학술대회 발표",
+   "image": "assets/gallery/photo-35.jpg",
+   "group": "PNU",
    "link": ""
   },
   {
-   "date": "2026-11-27\t=JOIN(\"\",ARRAYFORMULA(UNICHAR({54620,44397,44592,44228,44032,44277,54617,54924})))&\" 2026 \"&JOIN(\"\",ARRAYFORMULA(UNICHAR({52628,44228,54617,49696,45824,54924})))&\" \"&JOIN(\"\",ARRAYFORMULA(UNICHAR({48156,54364})))\tassets/gallery/photo-36.jpg\tPNU",
-   "caption": "",
-   "image": "",
-   "group": "",
+   "date": "2026-11-27",
+   "caption": "한국기계가공학회 2026 추계학술대회 발표",
+   "image": "assets/gallery/photo-36.jpg",
+   "group": "PNU",
    "link": ""
   },
   {
